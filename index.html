@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #0078d4;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav {
+            display: flex;
+            gap: 1rem;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            background: linear-gradient(rgba(0, 120, 212, 0.8), rgba(0, 120, 212, 0.8)), url('https://via.placeholder.com/1920x1080') no-repeat center/cover;
+            color: white;
+            padding: 5rem 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+
+        .hero .quote {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin: 2rem 0;
+        }
+
+        .hero button {
+            background-color: white;
+            color: #0078d4;
+            border: none;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .hero button:hover {
+            background-color: #005bbf;
+            color: white;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        footer .social-icons {
+            margin-top: 0.5rem;
+        }
+
+        footer .social-icons a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>kajol sushmitha</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Project</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My portfolio</h1>
+        <p>Transforming visions into digital reality</p>
+        <p class="quote">"Ever Tried. Ever Failed. No matter. Try again. Fail again. Fail better." – Samuel Beckett</p>
+        <button type="button">Get Started</button>
+    </section>
+
+    <section class="content">
+        <div class="card">
+            <h2>ABOUT</h2>
+            <p>I am passionate about combining creativity and technical expertise to solve complex problems and deliver exceptional results</p>
+        </div>
+        <div class="card">
+            <h2>PROJECTS</h2>
+            <p>Bringing ideas to life through design and innovation</p>
+        </div>
+        <div class="card">
+            <h2>CONTACT</h2>
+            <p>I’m always open to new opportunities and collaborations—get in touch, and let’s create something amazing together!.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting my portfolio.Looking forward to hearing from you!</p>
+
+        <div class="social-icons">
+            <a href="#">&#x1F30E;</a>
+            <a href="#">&#x1F4F1;</a>
+            <a href="#">&#x1F4BB;</a>
+        </div>
+    </footer>
+</body>
+</html>
