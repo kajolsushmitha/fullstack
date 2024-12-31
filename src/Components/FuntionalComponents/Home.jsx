@@ -1,4 +1,5 @@
 import '../../assets/css/Home.css'
+import SimpleForm from './SimpleForm'
 var Home=()=>{
     var styling={
         color:"green",
@@ -11,7 +12,9 @@ var Home=()=>{
                 TRY IT!!FOCUS IT!!
             </h2>
             <p className='box-model'>ACHIEVE IT!!</p>
+           <SimpleForm/>
         </header>
     )
+
 }
 export default Home
