@@ -11,7 +11,9 @@ import "./assets/css/NavBar.css";
 import UseEffect from './Components/FuntionalComponents/UseEffect';
 import UseRef from './Components/FuntionalComponents/UseRef';
 import UseContext from './Components/FuntionalComponents/UseContext';
-
+import UseMemo from './Components/FuntionalComponents/USeMemo';
+import SignUp from './Components/FuntionalComponents/Signup';
+import Login from './Components/FuntionalComponents/Login';
 
 function App() {
 
@@ -27,6 +29,9 @@ function App() {
         <Route path="/useEffect" element={<UseEffect/>}/>
         <Route path="/useref" element={<UseRef/>}/>
         <Route path="/usecontext" element={<UseContext/>}/>
+        <Route path="/useMemo" element={<UseMemo/>}/>
+        <Route path="/signUp" element={<SignUp/>}/>
+        <Route path="/login" element={<Login/>}/>
 
       </Routes>
       </BrowserRouter>

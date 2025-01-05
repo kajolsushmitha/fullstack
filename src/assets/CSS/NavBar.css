@@ -1,12 +1,12 @@
 ul{
     display: flex;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     justify-content: space-evenly;
     text-decoration: ivory;
     list-style-type: none;
     background-color: deepskyblue;
-  
+
 }
 li{
     cursor: pointer;
