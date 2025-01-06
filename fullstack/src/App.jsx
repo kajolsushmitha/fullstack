@@ -1,5 +1,5 @@
 import './App.css';
-import ClassComponent from './Components/ClassComponents/classcomponent';
+
 import About from './Components/FuntionalComponents/About';
 import Home from './Components/FuntionalComponents/Home';
 import Gallery from './Components/FuntionalComponents/Gallery';
