@@ -11,7 +11,7 @@ import "./Components/FuntionalComponents/CSS/NavBar.css";
 import UseEffect from './Components/FuntionalComponents/UseEffect';
 import UseRef from './Components/FuntionalComponents/UseRef';
 import UseContext from './Components/FuntionalComponents/UseContext';
-import UseMemo from './Components/FuntionalComponents/USeMemo';
+import UseMemo from './Components/FuntionalComponents/UseMemo';
 import SignUp from './Components/FuntionalComponents/Signup';
 import Login from './Components/FuntionalComponents/Login';
 
