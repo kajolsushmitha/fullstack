@@ -1,0 +1,12 @@
+.box-model{
+    font-size: 50px;
+    font-family:'Times New Roman';
+    width: 500px;
+    border: 15px solid green;
+    padding: 1px;
+    margin: 80px;
+    align-items: center;
+   }
+   #idSEsg{
+       text-align: center;
+   }
