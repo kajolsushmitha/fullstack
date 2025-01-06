@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../assets/css/SimpleForm.css'
+import './CSS/SimpleForm.css'
 function SimpleForm() {
   const [formData, setFormData] = useState({
     name: '',
