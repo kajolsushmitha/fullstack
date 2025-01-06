@@ -1,4 +1,4 @@
-import '../../assets/css/Home.css'
+import './CSS/Home.css';
 import SimpleForm from './SimpleForm'
 var Home=()=>{
     var styling={
