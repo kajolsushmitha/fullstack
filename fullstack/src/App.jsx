@@ -12,7 +12,7 @@ import UseEffect from './Components/FuntionalComponents/UseEffect';
 import UseRef from './Components/FuntionalComponents/UseRef';
 import UseContext from './Components/FuntionalComponents/UseContext';
 import UseMemo from './Components/FuntionalComponents/UseMemo';
-import SignUp from './Components/FuntionalComponents/Signup';
+import SignUp from './Components/FuntionalComponents/SignUp';
 import Login from './Components/FuntionalComponents/Login';
 
 function App() {
